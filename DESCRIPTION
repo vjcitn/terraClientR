@@ -1,0 +1,15 @@
+Package: terraClientR
+Title: R Package Client for FireCloud
+Version: 1.0.0
+Authors@R: c(person("Vince Carey", email="stvjc@channing.harvard.edu", role="aut"), 
+	person("OpenAPI Generator community", email = "team@openapitools.org", role = c("aut", "cre")))
+Description: FireCloud API 
+URL: https://github.com/vjcitn/terraClientR
+BugReports: https://github.com/vjcitn/terraClientR/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: BSD
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc
+RoxygenNote: 6.0.1.9000
