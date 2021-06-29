@@ -1,6 +1,8 @@
 # R API client for 'firecloud/Terra'
 
-Note -- some triple ''' in generated code had to be changed to ' for the code to parse.
+Note -- `openapi-generator-cli generate --skip-validate-spec -i api-docs.yaml -g r -o /tmp/test/` was used to generate R client.
+
+Note -- some triple ''' in generated R code had to be changed to ' for the code to parse.
 
 FireCloud API
 
